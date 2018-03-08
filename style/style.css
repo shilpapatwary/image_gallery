@@ -1,0 +1,144 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+header{
+  height:55px;
+  background-color:#00000070;
+}
+.header-title::before{
+  content: url(./images/chef.png);
+    position: relative;
+    top: 4px;
+    right: 15px;
+}
+.header-title{
+  font-size:30px;
+  position:relative;
+  top:13%;
+  left:2%;
+  color:#e0f0f0;
+}
+.cardContainer{
+  padding:1%;
+  background-color:#3d3d3d1f;
+}
+.itemCard{
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   width:31%;
+   margin:11px;
+   border-radius: 5px;
+   display:inline-block;
+   background-color:#ffffff;
+}
+.cardTitle{
+  padding:10px;
+  border-bottom:1px solid #1d1d1de0;
+  height:32px;
+  margin:0;
+  background-color:#8f8f8f7d;
+}
+.clickForImages{
+  background-color: #8f8f8f;
+    border: none;
+    color: #e0f0f0;
+    font-size: 14px;
+    cursor:pointer;
+}
+.cardBody{
+  padding:10px;
+  height:136px;
+  font-size:13px;
+}
+.cardImage, .cardText{
+  display:inline-block;
+}
+.cardImage img{
+  height:90px;
+  width:146px;
+  float:left;
+  padding:0 10px 0 1px;;
+}
+.cardAbstract{
+  padding-top:5px;
+}
+.cardFooter{
+  text-align: right;
+padding: 10px;
+}
+.author{
+  font-weight: bold;
+}
+
+ /* image gallery styles */
+ .modal-dialog{
+   display:none;
+   align:center;
+ }
+ .mySlides{
+   display:none;
+ }
+ .imageTitle {
+   text-align: center;
+   display:none;
+   background-color: black;
+   padding: 2px 16px;
+   color: #e9e9e9;
+   font-size:10px;
+   text-align:justify;
+ }
+
+ .thumbnailImage{
+   width:100%;
+   opacity:0.7;
+   height:57px;
+ }
+ .active, .thumbnailImage:hover{
+   opacity:1.0;
+ }
+ .thumbnailColumn {
+   display:inline-block;
+   width: 15%;
+   padding:3px;
+ }
+ .prev,
+ .next {
+   cursor: pointer;
+   position: absolute;
+   top: 40%;
+   width: auto;
+   padding: 5px;
+   margin-top: -50px;
+   color: white;
+   font-weight: bold;
+   font-size: 20px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+   -webkit-user-select: none;
+ }
+ .slideImage{
+   width:60%;
+   margin-left: 20%;
+ }
+
+ /* Position the "next button" to the right */
+ .next {
+   right: 12%;
+   border-radius: 3px 0 0 3px;
+ }
+ .prev{
+   left:12%;
+ }
+
+ /* On hover, add a black background color with a little bit see-through */
+ .prev:hover,
+ .next:hover {
+   background-color: #e9e9e9;
+ }
+ .ui-dialog .ui-dialog-content{
+   background-color: black;
+ }
+ .numbertext{
+   color:#e9e9e9;
+ }
